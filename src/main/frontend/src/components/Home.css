@@ -1,0 +1,9 @@
+.Result {
+    display:flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    padding-top:50px;
+    padding-left: 45%;
+       
+  }

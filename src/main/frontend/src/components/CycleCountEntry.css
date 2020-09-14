@@ -1,0 +1,40 @@
+
+.dialog_title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#partreadonly{
+    background-color: white;
+}
+
+.btnshow{
+    margin-top: 10%;
+    
+}
+
+
+/* .form{
+    display:flex;
+    justify-content: space-between;
+}
+
+.itemFirstPart{
+    display:flex;
+    justify-content: flex-start;
+}
+.itemSecondPart{
+    display:flex;
+    padding-left: 10px;
+}
+
+.notes{
+    display:flex;
+   
+}
+
+.testf{
+    display:flex;
+    flex-direction: column;
+} */
