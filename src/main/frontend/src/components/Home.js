@@ -37,7 +37,7 @@ export default class Home extends Component {
         event.preventDefault();
         let {id} = this.state;
 
-        axios.get('http://192.168.2.136:8080/api/asset/'+ id )
+        axios.get('http://192.168.2.69:8080/api/asset/'+ id )
         .then(response => {
            
             
@@ -55,7 +55,7 @@ export default class Home extends Component {
                 company_dept:response.data.company_dept,
             })
 
-            axios.get('http://192.168.2.136:8080/api/assetclass/'+ response.data.asset_class_id)
+            axios.get('http://192.168.2.69:8080/api/assetclass/'+ response.data.asset_class_id)
             .then(response=>{
                 
                 this.setState({
